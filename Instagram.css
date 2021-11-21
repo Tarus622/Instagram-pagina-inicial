@@ -1,0 +1,153 @@
+* {
+   padding: 0%; 
+   margin: 0%;
+   box-sizing: border-box;
+   text-decoration: none;
+   font-family: sans-serif;
+   font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.instagram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100vh;
+
+}
+    
+     
+.instagram-phone img {
+    height: 40rem;
+   
+
+}
+
+.profile-photo img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.instagram-logo img {
+    height: 50px ;
+    width: 12rem;
+    margin-left: 2px;
+}
+
+.instagram-continue {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 360px;
+    padding: 1.3rem 0;
+    background-color: white;
+    border: 1px solid lightgray;
+    height: 355px;
+    margin-top: 58px;
+    margin-left: 1rem;
+}
+
+.instagram-login {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #0095f6;
+    color: #ffffff;
+    border-radius: 4%;
+    margin-top: 8px;
+    text-align: center;
+
+}
+
+.instagram-logout {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    color: #0095f6;
+    margin-top: 1px;
+    
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+
+}
+
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    margin-top: 15px;
+
+}
+
+.apple img {
+    height: 40px;
+    width: auto;
+    flex-direction: column;
+    display: inline;
+    align-items:center;
+    justify-content: center;
+    margin-top: 10px;
+
+    
+}
+
+.aplle-dow img {
+    height: 40px;
+    width: auto;
+    margin-left: 30px;
+}
+
+.google-dow img {
+    height: 40px;
+    width: auto;
+    margin-left: 30px;
+}
+
+
+.pergunta {
+    margin-top: 3rem;
+}
+
+.group:nth-child(1) {
+    min-height: 19rem;
+}
+
+.not-account {
+    color: #0095f6;
+
+}
+
+.link-blue { 
+    color: #0095f6;
+}
+
